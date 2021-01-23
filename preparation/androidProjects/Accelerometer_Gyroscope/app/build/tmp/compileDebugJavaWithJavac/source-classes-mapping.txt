@@ -1,0 +1,2 @@
+com/example/accelerometer_gyroscope/BuildConfig.java
+ com.example.accelerometer_gyroscope.BuildConfig
