@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\valer\\AndroidStudioProjects\\typing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+            "outputFile": "D:\\Git\\2021-knu-cctui\\preparation\\androidProjects\\typing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\valer\\.gradle\\caches\\transforms-2\\files-2.1\\0aa09122d9eb272ea1237ac366fa31a3\\material-1.2.1\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",

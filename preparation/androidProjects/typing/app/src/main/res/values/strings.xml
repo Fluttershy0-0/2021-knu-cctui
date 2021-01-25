@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">typing</string>
+    <string name="hint">input</string>
+</resources>

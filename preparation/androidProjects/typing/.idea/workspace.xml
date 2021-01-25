@@ -18,7 +18,11 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1nRAcbGXZUqcZuTdBeGI8ORESKf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -108,9 +112,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1512" y="573" key="#app" timestamp="1611582362684">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="573" key="#app/0.0.2560.1400@0.0.2560.1400" timestamp="1611582362684" />
     <state x="1124" y="490" key="AndroidCreateXmlResourceDialog" timestamp="1611342729984">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1124" y="490" key="AndroidCreateXmlResourceDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1611342729984" />
+    <state x="1159" y="524" key="FileChooserDialogImpl" timestamp="1611578483116">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1159" y="524" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1611578483116" />
+    <state x="971" y="516" key="Vcs.Push.Dialog.v2" timestamp="1611578230205">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="971" y="516" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1611578230205" />
   </component>
 </project>
