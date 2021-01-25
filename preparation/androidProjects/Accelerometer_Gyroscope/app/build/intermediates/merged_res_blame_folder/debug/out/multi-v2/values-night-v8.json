@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\valer\\AndroidStudioProjects\\Accelerometer_Gyroscope\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\Git\\2021-knu-cctui\\preparation\\androidProjects\\Accelerometer_Gyroscope\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\valer\\.gradle\\caches\\transforms-2\\files-2.1\\147a6e7f9f7fc8aa5d9c7d6dea93c4ed\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "15,16,17,18,19,20,21,38",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "835,905,989,1073,1169,1271,1373,3329",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "900,984,1068,1164,1266,1368,1462,3413"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\valer\\AndroidStudioProjects\\Accelerometer_Gyroscope\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\Git\\2021-knu-cctui\\preparation\\androidProjects\\Accelerometer_Gyroscope\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -37,6 +20,23 @@
                         "endLines": "14",
                         "endColumns": "12",
                         "endOffsets": "830"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\valer\\.gradle\\caches\\transforms-2\\files-2.1\\147a6e7f9f7fc8aa5d9c7d6dea93c4ed\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21,38",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "835,905,989,1073,1169,1271,1373,3329",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "900,984,1068,1164,1266,1368,1462,3413"
                     }
                 },
                 {

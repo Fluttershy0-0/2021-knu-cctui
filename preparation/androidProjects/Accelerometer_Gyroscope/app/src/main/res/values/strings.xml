@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Accelerometer_Gyroscope</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="x">x:</string>
+    <string name="_0">0</string>
+    <string name="y">y:</string>
+    <string name="z">z:</string>
+    <string name="gyroscope">Gyroscope</string>
+</resources>
