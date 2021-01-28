@@ -61,7 +61,7 @@ with open('extracted_features_uf.csv', "w") as fu:
             clmns = ["sessionIndex", "rep"]
             for i in range((UDtss.shape[0]) - 2):
                 clmns.append("H." + durss[i] + "+" + durss[i + 1] + "+" + durss[i + 2])
-                clmns.append("UD." + UDtss[i] + "+" + UDtss[i + 1] + "+" + UDtss[i + 1])
+                clmns.append("UD." + UDtss[i] + "+" + UDtss[i + 1] + "+" + UDtss[i + 2])
             clmns.append("H." + durss[-3] + "+" + durss[-2] + "+" + durss[-1])
 
             datat = np.concatenate((df[["sessionIndex", "rep"]], datat), axis=1)
