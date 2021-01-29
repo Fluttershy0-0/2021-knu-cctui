@@ -3,6 +3,7 @@ from pynput.keyboard import Key, KeyCode
 import time
 import csv
 
+
 start_time = time.time()
 repetition_number = 1
 buffer = []
