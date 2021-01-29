@@ -72,6 +72,6 @@ coef2=add_nois_rect(F,r)
 
 #print(coef1,coef2)
 
-#print(scipy.fftpack.fft(r[1]))
-#print(scipy.fftpack.fft(s[1]))
+print(scipy.fftpack.fft(r[1]))
+print(scipy.fftpack.fft(s[1]))
 
