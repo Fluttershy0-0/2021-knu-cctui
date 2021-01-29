@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-df = pd.read_csv("maliuk_data.csv")
+df = pd.read_csv("maliuk_data_seconds.csv")
 clmns=['H.period', 'UD.period.t', 'H.t', 'UD.t.i', 'H.i', 'UD.i.e', 'H.e',
        'UD.e.five', 'H.five', 'UD.five.Shift.r', 'H.Shift.r', 'UD.Shift.r.o',
        'H.o', 'UD.o.a', 'H.a', 'UD.a.n', 'H.n', 'UD.n.l', 'H.l', 'UD.l.Return',
@@ -16,7 +16,6 @@ def extractFeatures(df, clmns, unimb, n):
         features["f{}".format(i+1)]=np.array([],dtype=float)
 
     for i in range(df.shape[0]):
-
         for j in range(0,len(clmns)-unimb*n,unimb):
             row = {"subject": df.iloc[i]["subject"],
                    'sessionIndex' : df.iloc[i]["sessionIndex"],
@@ -28,9 +27,9 @@ def extractFeatures(df, clmns, unimb, n):
     return features
 
 
-with open('maliuk_unigram_features.csv', "w") as fu:
-    with open('maliuk_bigram_features.csv', "w") as fb:
-        with open('maliuk_trigram_features.csv', "w") as ft:
+with open('ann-marie_unigram_features.csv', "w") as fu:
+    with open('ann-marie_bigram_features.csv', "w") as fb:
+        with open('ann-marie_trigram_features.csv', "w") as ft:
             dfu = extractFeatures(df, clmns, 2, 1)
             dfu.to_csv(fu,header= True, line_terminator='\n', index=False)
             dfb = extractFeatures(df, clmns, 2, 2)
