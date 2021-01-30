@@ -1,4 +1,4 @@
-subject,sessionIndex,rep,letter,f1,f2
+subject,sessionIndex,rep,key,feature1,feature2
 Serhii_Zakharash,1,1,period,0.14706921577453613,0.15989160537719727
 Serhii_Zakharash,1,1,t,0.21914291381835935,0.18976449966430664
 Serhii_Zakharash,1,1,i,0.3124299049377441,1.346703052520752
