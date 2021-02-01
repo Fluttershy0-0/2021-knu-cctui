@@ -4,7 +4,7 @@ from math import pi
 from scipy.signal import medfilt,savgol_filter
 
 
-
+#Done: noise suppression with median and Savitzky-Golay filters for sin and puls signals.
 F=1000
 f=3
 A=2
