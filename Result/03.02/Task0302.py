@@ -7,6 +7,9 @@ from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_digits
 
+#Done:Binary classification with logistic regression, support vector machine, random forest
+
+
 my_d=3
 digits = load_digits()
 x=[]
