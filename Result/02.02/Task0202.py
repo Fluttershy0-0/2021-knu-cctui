@@ -4,6 +4,9 @@ from math import pi
 import scipy.fftpack
 import pywt
 
+#Done:Amplitude spectrum of Fast Fourier transform
+#Approximation and detail coefficients for n-level Stationary Wavelet Transform
+
 F=1000
 f=3
 A=2
