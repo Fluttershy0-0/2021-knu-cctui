@@ -53,3 +53,5 @@ print(Pearson_corr_sin, "\n", Pearson_corr_pulse)
 a =fftpack.fft(Pearson_corr_sin)
 b =fftpack.fft(Pearson_corr_pulse)
 print(a,"\n",b)
+
+np.
