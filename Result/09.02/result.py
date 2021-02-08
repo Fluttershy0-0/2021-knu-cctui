@@ -14,30 +14,33 @@ path2='c:\\Masha\\Samsung\\Task0802\\makowetska\\'
 path3='c:\\Masha\\Samsung\\Task0802\\novikova\\'
 all_i=[]
 all_dig=[]
-
 m_i=[]
+
 for elem in os.listdir(path=path):
     if "key" in elem:
         my_pin = PIN(elem, path)
+        my_pin.sigm_time('acc')
+        my_pin.sigm_time('gyro')
+        all_i.append(1)
+        m_i.append(1)
+        all_dig.append([my_pin.ret_key()[1]])
 
-        ac_x = np.abs(scipy.fftpack.fft(my_pin.sigm_time('acc')[0]))
+'''    ac_x = np.abs(scipy.fftpack.fft(my_pin.sigm_time('acc')[0]))
         ac_y = np.abs(scipy.fftpack.fft(my_pin.sigm_time('acc')[1]))
         ac_z = np.abs(scipy.fftpack.fft(my_pin.sigm_time('acc')[2]))
 
         #print(ac_x,ac_y,ac_z)
 
 
-        my_pin.sigm_time('gyro')
+
 
         gyro_x = np.abs(scipy.fftpack.fft(my_pin.sigm_time('gyro')[0]))
         gyro_y = np.abs(scipy.fftpack.fft(my_pin.sigm_time('gyro')[1]))
         gyro_z = np.abs(scipy.fftpack.fft(my_pin.sigm_time('gyro')[2]))
 
-        #print(gyro_x, gyro_y,gyro_z)
+        #print(gyro_x, gyro_y,gyro_z)'''
 
-        all_i.append(1)
-        m_i.append(1)
-        all_dig.append([my_pin.ret_key()[1]])
+
 
 for elem in os.listdir(path=path2):
     if "key" in elem:
