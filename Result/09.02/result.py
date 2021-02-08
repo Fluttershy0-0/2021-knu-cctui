@@ -4,6 +4,8 @@ from binar_test import log_test,svc_test,forest_test
 from multi_test import multi_svc_test,multi_log_test,multi_forest_test
 import os
 import numpy as np
+import scipy.fftpack
+import pywt
 
 
 
@@ -17,8 +19,22 @@ m_i=[]
 for elem in os.listdir(path=path):
     if "key" in elem:
         my_pin = PIN(elem, path)
-        my_pin.sigm_time('acc')
+
+        ac_x = np.abs(scipy.fftpack.fft(my_pin.sigm_time('acc')[0]))
+        ac_y = np.abs(scipy.fftpack.fft(my_pin.sigm_time('acc')[1]))
+        ac_z = np.abs(scipy.fftpack.fft(my_pin.sigm_time('acc')[2]))
+
+        #print(ac_x,ac_y,ac_z)
+
+
         my_pin.sigm_time('gyro')
+
+        gyro_x = np.abs(scipy.fftpack.fft(my_pin.sigm_time('gyro')[0]))
+        gyro_y = np.abs(scipy.fftpack.fft(my_pin.sigm_time('gyro')[1]))
+        gyro_z = np.abs(scipy.fftpack.fft(my_pin.sigm_time('gyro')[2]))
+
+        #print(gyro_x, gyro_y,gyro_z)
+
         all_i.append(1)
         m_i.append(1)
         all_dig.append([my_pin.ret_key()[1]])
