@@ -1,8 +1,5 @@
-
 import numpy as np
 import csv
-
-import toString as toString
 from scipy.stats import ks_2samp
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix,log_loss,f1_score
@@ -55,8 +52,6 @@ print("Обчислення статистики Колмогорова-Смір
 s,p=ks_2samp(collectum, x)
 print(ks_2samp(collectum, x))
 alpha=0.05
-print("----------------------------------------------------------------------------------------------------------");
-
 # classifiers:logit model
 logreg_clf = LogisticRegression()
 logreg_clf.fit(unigramram, i)
@@ -98,10 +93,12 @@ tree_f=f1_score(i,i_p3)#F-score
 
 
 
-
 print("Випадковий ліс  FAR={}, FRR={}, log-loss={} ,F-score={} ".format(tree_far,tree_frr,l3,tree_f))
-print("----------------------------------------------------------------------------------------------------------");
-print("Опорна векторна машина  FAR={}, FRR={}, log-loss={} ,F-score={} ".format(svc_far,svc_frr,l2,svc_f))
+print((len(("Випадковий ліс  FAR={}, FRR={}, log-loss={} ,F-score={} ".format(tree_far,tree_frr,l3,tree_f))))*"-")
 
-print("----------------------------------------------------------------------------------------------------------");
+print("Опорна векторна машина  FAR={}, FRR={}, log-loss={} ,F-score={} ".format(svc_far,svc_frr,l2,svc_f))
+print((len(("Опорна векторна машина  FAR={}, FRR={}, log-loss={} ,F-score={} ".format(svc_far,svc_frr,l2,svc_f))))*"-")
+
+
 print("Логістична регресія  FAR={}, FRR={}, log-loss={} ,F-score={} ".format(logreg_far,logreg_frr,l1,log_f))
+print((len(("Логістична регресія  FAR={}, FRR={}, log-loss={} ,F-score={} ".format(logreg_far,logreg_frr,l1,log_f))))*"-")
