@@ -1,0 +1,15 @@
+Результати для одноелементного піну(застосовані фільтри median and Savitzky-Golay filters):
+Multiclass classification
+Multiclass classification Логістична регресія   log-loss=8.322486723898733 ,F-score=0.3125 
+Multiclass classification SVC confusion matrix=[[1 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 1 0]
+ [1 0 0 0 0 0]
+ [1 0 0 0 2 0]
+ [1 1 0 0 0 0]]  log-loss=1.7187924050908563 ,F-score=0.3 
+Multiclass classification Випадковий ліс confusion matrix=[[0 1 0 0 0]
+ [0 0 0 1 0]
+ [0 1 0 0 0]
+ [1 2 0 0 0]
+ [0 2 0 0 0]] log-loss=26.077369091323007 ,F-score=0.0
+Найліпший результат показала логістична регресія, потім SVC.
